@@ -1,0 +1,52 @@
+Message,Label
+Hello,greeting
+Hi,greeting
+Hey,greeting
+Good morning,greeting
+Good evening,greeting
+Greetings,greeting
+I'm feeling anxious,mental_health_anxiety
+I am stressed out,mental_health_anxiety
+I have anxiety,mental_health_anxiety
+I'm feeling nervous,mental_health_anxiety
+How can I calm my anxiety?,mental_health_anxiety
+I feel depressed,mental_health_depression
+I'm feeling very down,mental_health_depression
+I'm struggling with sadness,mental_health_depression
+Life feels pointless,mental_health_depression
+I'm feeling hopeless,mental_health_depression
+I'm overwhelmed,mental_health_stress
+I feel too stressed,mental_health_stress
+I can't handle the pressure,mental_health_stress
+Work is stressing me out,mental_health_stress
+I'm feeling overworked,mental_health_stress
+I have a headache,physical_health_pain
+My stomach hurts,physical_health_pain
+I have body pain,physical_health_pain
+Can you help with a sore throat?,physical_health_pain
+I'm experiencing muscle pain,physical_health_pain
+I'm always tired,physical_health_fatigue
+I feel exhausted,physical_health_fatigue
+I have no energy,physical_health_fatigue
+Why am I so tired?,physical_health_fatigue
+I feel fatigued all the time,physical_health_fatigue
+How often should I exercise?,exercise_advice
+What's a good workout?,exercise_advice
+Can exercise improve mood?,exercise_advice
+Is exercise helpful for mental health?,exercise_advice
+How can I start exercising?,exercise_advice
+What should I eat for better health?,diet_nutrition
+Is there a diet for mental clarity?,diet_nutrition
+How does food impact mood?,diet_nutrition
+What are healthy snacks?,diet_nutrition
+Can diet affect mental health?,diet_nutrition
+Goodbye,goodbye
+See you later,goodbye
+Bye,goodbye
+Take care,goodbye
+Catch you later,goodbye
+Thank you,thank_you
+Thanks,thank_you
+That's helpful,thank_you
+I appreciate it,thank_you
+Youâ€™ve been helpful,thank_you

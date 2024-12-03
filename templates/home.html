@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Home - Mental Health ChatBot</title>
+</head>
+<body>
+    <div class="home-container">
+        <h1>Welcome to Your Mental Health ChatBot</h1>
+        <p>We're here to listen to you, anytime, anywhere. Let's get started!</p>
+        <div class="home-buttons">
+            <a href="{{ url_for('signup') }}" class="button">Sign Up</a>
+            <a href="{{ url_for('login') }}" class="button">Log In</a>
+        </div>
+    </div>
+</body>
+</html>

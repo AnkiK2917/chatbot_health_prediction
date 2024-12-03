@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Profile - Mental Health ChatBot</title>
+</head>
+<body>
+    <div class="profile-container">
+        <h2>Welcome, {{ username }}!</h2>
+        <p>Your profile details go here.</p>
+        <a href="{{ url_for('chat') }}" class="button">Go to Chat</a>
+        <br><br>
+        <!-- Link to health prediction page -->
+        <a href="{{ url_for('health_prediction') }}" class="button">Go to Health Prediction</a>
+        <br><br>
+        <!-- Logout link -->
+        <a href="{{ url_for('logout') }}" class="button">Logout</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+Message,Label
+Hello,neutral
+Hi,neutral
+Hey,neutral
+Good morning,neutral
+Good evening,neutral
+Greetings,neutral
+I'm feeling anxious,anxiety
+I am stressed out,anxiety
+I have anxiety,anxiety
+I'm feeling nervous,anxiety
+How can I calm my anxiety?,anxiety
+I feel depressed,depression
+I'm feeling very down,depression
+I'm struggling with sadness,depression
+Life feels pointless,depression
+I'm feeling hopeless,depression
+I'm overwhelmed,stress
+I feel too stressed,stress
+I can't handle the pressure,stress
+Work is stressing me out,stress
+I'm feeling overworked,stress
+I have a headache,pain
+My stomach hurts,pain
+I have body pain,pain
+Can you help with a sore throat?,pain
+I'm experiencing muscle pain,pain
+I'm always tired,fatigue
+I feel exhausted,fatigue
+I have no energy,fatigue
+Why am I so tired?,fatigue
+I feel fatigued all the time,fatigue
+How often should I exercise?,physical stress
+What's a good workout?,physical stress
+Can exercise improve mood?,physical stress
+Is exercise helpful for mental health?,physical stress
+How can I start exercising?,physical stress
+What should I eat for better health?,nutrition
+Is there a diet for mental clarity?,nutrition
+How does food impact mood?,nutrition
+What are healthy snacks?,nutrition
+Can diet affect mental health?,nutrition
+Goodbye,neutral
+See you later,neutral
+Bye,neutral
+Take care,neutral
+Catch you later,neutral
+Thank you,neutral
+Thanks,neutral
+That's helpful,neutral
+I appreciate it,neutral
+Youâ€™ve been helpful,neutral

@@ -1,0 +1,131 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "Greetings"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How are you feeling?",
+        "Hey! What can I help you with today?",
+        "Greetings! I'm here to support you. How can I assist you?",
+        "Hello! Feel free to share how you're feeling or ask me anything."
+      ]
+    },
+    {
+      "tag": "mental_health_anxiety",
+      "patterns": [
+        "I'm feeling anxious", "I am stressed out", "I have anxiety", 
+        "I'm feeling nervous", "How can I calm my anxiety?"
+      ],
+      "responses": [
+        "I understand that anxiety can feel overwhelming. Try taking a few deep breaths and focusing on the present moment. Meditation and mindfulness can also be very effective in reducing anxiety.",
+        "It's okay to feel anxious. Grounding techniques, such as focusing on your surroundings or holding a calming object, can help bring you back to the present.",
+        "Remember, anxiety often passes with time. Try to take a break or connect with someone who can offer support.",
+        "You could try writing down your feelings to process them or consider gentle exercises like stretching or a short walk to calm your mind.",
+        "If you're open to it, I can share some mindfulness exercises that might help ease your anxiety. Let me know if you'd like that."
+      ]
+    },
+    {
+      "tag": "mental_health_depression",
+      "patterns": [
+        "I feel depressed", "I'm feeling very down", "I'm struggling with sadness",
+        "Life feels pointless", "I'm feeling hopeless"
+      ],
+      "responses": [
+        "I'm here for you, and I want you to know that it's okay to feel this way. Taking small steps, like reaching out to friends or engaging in a hobby you enjoy, can sometimes lift your mood.",
+        "Try to be kind to yourself. Depression can be tough to handle alone, so consider talking to someone you trust or writing down your thoughts to understand them better.",
+        "It's natural to feel low sometimes. Acknowledging these feelings is the first step toward feeling better. If it helps, focus on small, positive activities like reading or going for a walk.",
+        "You're not alone in feeling this way, and things can improve with time and support. Try to focus on one small positive action each day, and remember, I'm here to listen.",
+        "Sometimes, engaging in physical activity or taking up a creative outlet can provide relief. Don't hesitate to reach out if you feel the need to talk."
+      ]
+    },
+    {
+      "tag": "mental_health_stress",
+      "patterns": [
+        "I'm overwhelmed", "I feel too stressed", "I can't handle the pressure", 
+        "Work is stressing me out", "I'm feeling overworked"
+      ],
+      "responses": [
+        "Stress can be overwhelming, especially if you're juggling multiple responsibilities. Consider breaking tasks into smaller steps or scheduling short breaks to ease the pressure.",
+        "Prioritizing your tasks can sometimes make things feel more manageable. I'd be happy to share relaxation techniques, like deep breathing exercises, if you'd like.",
+        "Remember, taking time to rest is just as important as getting things done. A short walk or moment of meditation can often help recharge your energy.",
+        "Try practicing mindfulness or gentle stretching to reduce stress. Small changes, like setting boundaries or saying 'no' to extra work, can also help manage stress levels.",
+        "Talking to someone you trust or simply listing out your tasks can often provide clarity. I'm here if you want to explore ways to manage stress together."
+      ]
+    },
+    {
+      "tag": "physical_health_pain",
+      "patterns": [
+        "I have a headache", "My stomach hurts", "I have body pain",
+        "Can you help with a sore throat?", "I'm experiencing muscle pain"
+      ],
+      "responses": [
+        "I'm sorry to hear you're in pain. For headaches, try resting in a quiet, dark room and drinking plenty of water to stay hydrated.",
+        "Stomach discomfort can often be helped by eating lightly and avoiding heavy foods. You may find relief in warm tea or a gentle abdominal massage.",
+        "For muscle aches, applying a warm compress or taking a warm bath can soothe sore muscles. Gentle stretching might also help alleviate tension.",
+        "A sore throat can be eased by drinking warm fluids, like tea with honey, and staying hydrated. Avoid straining your voice if possible.",
+        "Physical discomfort can be draining. Rest and gentle care often help the body heal. Let me know if you’d like more suggestions tailored to your symptoms."
+      ]
+    },
+    {
+      "tag": "physical_health_fatigue",
+      "patterns": [
+        "I'm always tired", "I feel exhausted", "I have no energy",
+        "Why am I so tired?", "I feel fatigued all the time"
+      ],
+      "responses": [
+        "Fatigue can be caused by many factors, like poor sleep, stress, or even dehydration. Try to rest, stay hydrated, and take short breaks to boost your energy.",
+        "A balanced diet and light exercise can often improve energy levels over time. Incorporating more fruits, vegetables, and whole grains may also help.",
+        "If fatigue persists, consider reviewing your sleep schedule and setting aside time for relaxation. Little lifestyle adjustments can make a difference.",
+        "Feeling tired can be a sign of mental or physical exhaustion. Taking moments to rest or engaging in a refreshing activity, like walking, can help uplift your energy.",
+        "Getting good rest and keeping hydrated is essential. Avoid caffeine close to bedtime to ensure better sleep quality. I'm here if you'd like more tips."
+      ]
+    },
+    {
+      "tag": "exercise_advice",
+      "patterns": [
+        "How often should I exercise?", "What's a good workout?", "Can exercise improve mood?", 
+        "Is exercise helpful for mental health?", "How can I start exercising?"
+      ],
+      "responses": [
+        "Regular exercise, even a simple 30-minute walk each day, can improve both mental and physical health. It’s a great way to boost your mood and energy.",
+        "Starting with light activities like walking, stretching, or yoga can help you build a sustainable habit. These exercises are easy on the body and good for beginners.",
+        "Exercise releases endorphins, which are natural mood lifters. Regular physical activity can help reduce stress and improve mental clarity over time.",
+        "If you're new to exercise, start small, maybe with 10-15 minutes a day, and gradually increase the duration. Consistency is more important than intensity at the beginning.",
+        "Listening to music, exercising outdoors, or trying a group class can make workouts more enjoyable. Find what you love to do, and it’ll be easier to keep going."
+      ]
+    },
+    {
+      "tag": "diet_nutrition",
+      "patterns": [
+        "What should I eat for better health?", "Is there a diet for mental clarity?", 
+        "How does food impact mood?", "What are healthy snacks?", "Can diet affect mental health?"
+      ],
+      "responses": [
+        "A balanced diet with fruits, vegetables, whole grains, and proteins can boost both physical and mental health. Omega-3 fatty acids are also beneficial for brain health.",
+        "Foods rich in antioxidants, like berries, can support mental clarity. Drinking water throughout the day is equally important for cognitive function.",
+        "Healthy snacks, such as nuts, seeds, yogurt, or fresh fruit, provide energy without causing a sugar crash. These snacks are nutritious and can improve mood stability.",
+        "Diet plays a role in mental health. Consuming nutritious foods with vitamins, minerals, and fiber can reduce mood swings and support overall well-being.",
+        "Eating regularly and staying hydrated can help maintain energy levels and mental focus. Small lifestyle changes can make a big difference in how you feel."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye", "Take care", "Catch you later"],
+      "responses": [
+        "Goodbye! Take care of yourself and remember I'm here if you need support.",
+        "See you later! Wishing you peace and well-being. I'm just a message away.",
+        "Bye! Take care, and don’t hesitate to reach out whenever you need assistance or a listening ear."
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "That's helpful", "I appreciate it", "You’ve been helpful"],
+      "responses": [
+        "You're very welcome! I'm glad I could help. Take care!",
+        "No problem! I'm here whenever you need support. Don't hesitate to reach out.",
+        "I'm happy to help! Your well-being is important to me, so feel free to return anytime."
+      ]
+    }
+  ]
+}

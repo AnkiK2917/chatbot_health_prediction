@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2024-12-02 01:14:58",
+        "user_message": "hiii",
+        "bot_response": "Hi there! How are you feeling?"
+    },
+    {
+        "timestamp": "2024-12-02 01:15:08",
+        "user_message": "i am sad",
+        "bot_response": "You could try writing down your feelings to process them or consider gentle exercises like stretching or a short walk to calm your mind."
+    },
+    {
+        "timestamp": "2024-12-02 01:16:00",
+        "user_message": "hiii",
+        "bot_response": "Hello! How can I assist you today?"
+    },
+    {
+        "timestamp": "2024-12-02 01:16:17",
+        "user_message": "hiii",
+        "bot_response": "Hello! Feel free to share how you're feeling or ask me anything."
+    },
+    {
+        "timestamp": "2024-12-02 01:16:23",
+        "user_message": "i am sad",
+        "bot_response": "You could try writing down your feelings to process them or consider gentle exercises like stretching or a short walk to calm your mind."
+    },
+    {
+        "timestamp": "2024-12-02 01:16:29",
+        "user_message": "i am depressed",
+        "bot_response": "Try to be kind to yourself. Depression can be tough to handle alone, so consider talking to someone you trust or writing down your thoughts to understand them better."
+    }
+]

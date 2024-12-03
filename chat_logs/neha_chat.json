@@ -1,0 +1,27 @@
+[
+    {
+        "timestamp": "2024-12-02 01:28:10",
+        "user_message": "hiiii",
+        "bot_response": "Hello! Feel free to share how you're feeling or ask me anything."
+    },
+    {
+        "timestamp": "2024-12-02 01:28:15",
+        "user_message": "i am sad",
+        "bot_response": "Remember, anxiety often passes with time. Try to take a break or connect with someone who can offer support."
+    },
+    {
+        "timestamp": "2024-12-02 01:28:23",
+        "user_message": "i am depressed",
+        "bot_response": "It's natural to feel low sometimes. Acknowledging these feelings is the first step toward feeling better. If it helps, focus on small, positive activities like reading or going for a walk."
+    },
+    {
+        "timestamp": "2024-12-02 01:32:18",
+        "user_message": "i am happy today",
+        "bot_response": "You could try writing down your feelings to process them or consider gentle exercises like stretching or a short walk to calm your mind."
+    },
+    {
+        "timestamp": "2024-12-02 01:32:27",
+        "user_message": "how are you",
+        "bot_response": "A balanced diet with fruits, vegetables, whole grains, and proteins can boost both physical and mental health. Omega-3 fatty acids are also beneficial for brain health."
+    }
+]

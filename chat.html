@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Mental Health ChatBot</title>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Mental Health ChatBot</h2>
+            <p>Share with me! Whatever you want. I am here for you.</p>
+        </div>
+        <div id="chatbox" class="chatbox"></div>
+        <div class="chat-input">
+            <input id="userInput" type="text" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
